@@ -63,7 +63,6 @@ class App extends React.Component {
   }
 
   componentDidMount (){
-    //想要使用微信分享, 你必须到微信分享平台 https://open.weixin.qq.com/ 申请appid
     Wechat.registerApp('your wechat appid');
   }
 
